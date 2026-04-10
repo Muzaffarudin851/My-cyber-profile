@@ -333,3 +333,15 @@ section.visible {
   text-align: center;
   padding: 100px 20px;
 }
+
+/* PROFILE IMAGE */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid #00ff88;
+  box-shadow: 0 0 20px #00ff88, 0 0 40px #00ff8855;
+  margin-bottom: 20px;
+}
