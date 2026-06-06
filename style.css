@@ -345,3 +345,20 @@ section.visible {
   box-shadow: 0 0 20px #00ff88, 0 0 40px #00ff8855;
   margin-bottom: 20px;
 }
+/* SOCIAL LINKS */
+.social-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-links a {
+  color: #e0e0e0;
+  font-size: 1.3rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: #00ff88;
+  transform: translateY(-3px);
+}
